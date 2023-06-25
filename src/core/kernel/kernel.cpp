@@ -1,6 +1,7 @@
 #include <cassert>
 #include "kernel.hpp"
 #include "kernel_types.hpp"
+#include "kernel_handle_table.hpp"
 #include "cpu.hpp"
 
 Kernel::Kernel(CPU& cpu, Memory& mem, GPU& gpu)

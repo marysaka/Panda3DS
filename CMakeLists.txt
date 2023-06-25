@@ -102,6 +102,7 @@ set(FS_SOURCE_FILES src/core/fs/archive_self_ncch.cpp src/core/fs/archive_save_d
 set(HEADER_FILES include/emulator.hpp include/helpers.hpp include/opengl.hpp include/termcolor.hpp
                  include/cpu.hpp include/cpu_dynarmic.hpp include/memory.hpp include/kernel/kernel.hpp
                  include/dynarmic_cp15.hpp include/kernel/resource_limits.hpp include/kernel/kernel_types.hpp
+                 include/kernel/kernel_object.hpp include/kernel/kernel_handle_table.hpp
                  include/kernel/config_mem.hpp include/services/service_manager.hpp include/services/apt.hpp
                  include/kernel/handles.hpp include/services/hid.hpp include/services/fs.hpp
                  include/services/gsp_gpu.hpp include/services/gsp_lcd.hpp include/arm_defs.hpp

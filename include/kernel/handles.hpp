@@ -5,7 +5,7 @@ using Handle = u32;
 
 namespace KernelHandles {
 	enum : u32 {
-		Max = 0xFFFF7FFF, // Max handle the kernel can automagically allocate
+		Max = 0xFFFF, // Max handle the kernel can automagically allocate
 
 		// Hardcoded handles
 		CurrentThread = 0xFFFF8000,  // Used by the original kernel
